@@ -9,4 +9,4 @@ The operation that dominates runtime in this scheduler is heap insertion and rem
 
 Scanning a list to find the next highest-priority event would take O(n) time per operation, which becomes inefficient as the number of events increases.
 
-Lazy updating is acceptable in practice because it avoids costly in-place heap modifications. Although outdated entries remain temporarily in the heap, they are efficiently discarded later, keeping the overall system fast and scalable.
+Lazy updating is acceptable in practice because it avoids costly in-place heap modifications. Although outdated entries remain temporarily in the heap, they are efficiently discarded later, keeping the overall system fast and scalable
