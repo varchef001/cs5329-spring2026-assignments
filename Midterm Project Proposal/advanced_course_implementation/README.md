@@ -133,4 +133,3 @@ This project shows how graph algorithms can solve a realistic course planning pr
 
 
 
-One correction: since your repo now uses datasets2, keep the example path as ../datasets2/courses_advanced_catalog.json, not ../datasets/....
