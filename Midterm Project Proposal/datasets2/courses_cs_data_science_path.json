@@ -1,0 +1,172 @@
+[
+  {
+    "course_id": "CS101",
+    "course_name": "Introduction to Programming",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CS102",
+    "course_name": "Programming Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS101"
+    ]
+  },
+  {
+    "course_id": "CS103",
+    "course_name": "Object-Oriented Programming",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS102"
+    ]
+  },
+  {
+    "course_id": "MATH101",
+    "course_name": "Calculus I",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "MATH201",
+    "course_name": "Discrete Mathematics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "MATH101"
+    ]
+  },
+  {
+    "course_id": "CS201",
+    "course_name": "Data Structures",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS103"
+    ]
+  },
+  {
+    "course_id": "CS202",
+    "course_name": "Computer Organization",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS103"
+    ]
+  },
+  {
+    "course_id": "CS203",
+    "course_name": "Database Systems",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS201"
+    ]
+  },
+  {
+    "course_id": "CS204",
+    "course_name": "Operating Systems",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS201",
+      "CS202"
+    ]
+  },
+  {
+    "course_id": "CS205",
+    "course_name": "Computer Networks",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS202"
+    ]
+  },
+  {
+    "course_id": "CS301",
+    "course_name": "Algorithms",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS201",
+      "MATH201"
+    ]
+  },
+  {
+    "course_id": "CS302",
+    "course_name": "Software Engineering Principles",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS201"
+    ]
+  },
+  {
+    "course_id": "DS301",
+    "course_name": "Probability and Statistics for Data Science",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "MATH201"
+    ]
+  },
+  {
+    "course_id": "DS302",
+    "course_name": "Data Mining",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CS203",
+      "DS301"
+    ]
+  },
+  {
+    "course_id": "DS303",
+    "course_name": "Data Visualization",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "CS203"
+    ]
+  },
+  {
+    "course_id": "DS304",
+    "course_name": "Big Data Analytics",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "DS302",
+      "CS205"
+    ]
+  },
+  {
+    "course_id": "DS305",
+    "course_name": "Applied Machine Learning",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "DS302"
+    ]
+  }
+]

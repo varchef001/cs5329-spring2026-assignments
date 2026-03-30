@@ -1,0 +1,51 @@
+[
+  {
+    "course_id": "CE101",
+    "course_name": "Civil Engineering Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CE102",
+    "course_name": "Engineering Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CE101"
+    ]
+  },
+  {
+    "course_id": "CE201",
+    "course_name": "Structural Analysis",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CE102"
+    ]
+  },
+  {
+    "course_id": "CE202",
+    "course_name": "Construction Materials",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CE101"
+    ]
+  },
+  {
+    "course_id": "CE301",
+    "course_name": "Reinforced Concrete Design",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CE201",
+      "CE202"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "course_id": "EL101",
+    "course_name": "Technical Communication",
+    "program": "Computer Science",
+    "concentration": "General",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "EL102",
+    "course_name": "Professional Ethics in Engineering",
+    "program": "Computer Science",
+    "concentration": "General",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "EL103",
+    "course_name": "Innovation and Entrepreneurship",
+    "program": "Computer Science",
+    "concentration": "General",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "EL104",
+    "course_name": "Project Management Fundamentals",
+    "program": "Computer Science",
+    "concentration": "General",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "EL105",
+    "course_name": "Human Computer Interaction",
+    "program": "Computer Science",
+    "concentration": "General",
+    "category": "Elective",
+    "prerequisites": []
+  }
+]

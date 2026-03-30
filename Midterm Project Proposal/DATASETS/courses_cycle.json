@@ -1,6 +1,0 @@
-[
-  {"course_id": "CS101", "prerequisites": ["CS103"]},
-  {"course_id": "CS102", "prerequisites": ["CS101"]},
-  {"course_id": "CS103", "prerequisites": ["CS102"]},
-  {"course_id": "MATH101", "prerequisites": []}
-]

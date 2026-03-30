@@ -1,0 +1,42 @@
+[
+  {
+    "course_id": "CS101",
+    "course_name": "Introduction to Programming",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "AI302"
+    ]
+  },
+  {
+    "course_id": "CS102",
+    "course_name": "Programming Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS101"
+    ]
+  },
+  {
+    "course_id": "AI301",
+    "course_name": "Artificial Intelligence",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CS102"
+    ]
+  },
+  {
+    "course_id": "AI302",
+    "course_name": "Machine Learning",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "AI301"
+    ]
+  }
+]

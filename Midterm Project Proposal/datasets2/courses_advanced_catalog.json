@@ -1,0 +1,564 @@
+[
+  {
+    "course_id": "CS101",
+    "course_name": "Introduction to Programming",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CS102",
+    "course_name": "Programming Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS101"
+    ]
+  },
+  {
+    "course_id": "CS103",
+    "course_name": "Object-Oriented Programming",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS102"
+    ]
+  },
+  {
+    "course_id": "MATH101",
+    "course_name": "Calculus I",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "MATH201",
+    "course_name": "Discrete Mathematics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "MATH101"
+    ]
+  },
+  {
+    "course_id": "CS201",
+    "course_name": "Data Structures",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS103"
+    ]
+  },
+  {
+    "course_id": "CS202",
+    "course_name": "Computer Organization",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS103"
+    ]
+  },
+  {
+    "course_id": "CS203",
+    "course_name": "Database Systems",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS201"
+    ]
+  },
+  {
+    "course_id": "CS204",
+    "course_name": "Operating Systems",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS201",
+      "CS202"
+    ]
+  },
+  {
+    "course_id": "CS205",
+    "course_name": "Computer Networks",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS202"
+    ]
+  },
+  {
+    "course_id": "CS301",
+    "course_name": "Algorithms",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS201",
+      "MATH201"
+    ]
+  },
+  {
+    "course_id": "CS302",
+    "course_name": "Software Engineering Principles",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CS201"
+    ]
+  },
+  {
+    "course_id": "DS301",
+    "course_name": "Probability and Statistics for Data Science",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "MATH201"
+    ]
+  },
+  {
+    "course_id": "DS302",
+    "course_name": "Data Mining",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CS203",
+      "DS301"
+    ]
+  },
+  {
+    "course_id": "DS303",
+    "course_name": "Data Visualization",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "CS203"
+    ]
+  },
+  {
+    "course_id": "DS304",
+    "course_name": "Big Data Analytics",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "DS302",
+      "CS205"
+    ]
+  },
+  {
+    "course_id": "DS305",
+    "course_name": "Applied Machine Learning",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "DS302"
+    ]
+  },
+  {
+    "course_id": "SE301",
+    "course_name": "Software Testing and Quality Assurance",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CS302"
+    ]
+  },
+  {
+    "course_id": "SE302",
+    "course_name": "Web Application Development",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CS203",
+      "CS302"
+    ]
+  },
+  {
+    "course_id": "SE303",
+    "course_name": "Mobile Application Development",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CS302"
+    ]
+  },
+  {
+    "course_id": "SE304",
+    "course_name": "DevOps and Continuous Delivery",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CS204",
+      "CS302"
+    ]
+  },
+  {
+    "course_id": "SE305",
+    "course_name": "Cloud Computing",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CS205",
+      "CS302"
+    ]
+  },
+  {
+    "course_id": "AI301",
+    "course_name": "Artificial Intelligence",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CS301"
+    ]
+  },
+  {
+    "course_id": "AI302",
+    "course_name": "Machine Learning",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "AI301",
+      "DS301"
+    ]
+  },
+  {
+    "course_id": "AI303",
+    "course_name": "Deep Learning",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Elective",
+    "prerequisites": [
+      "AI302"
+    ]
+  },
+  {
+    "course_id": "AI304",
+    "course_name": "Natural Language Processing",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Elective",
+    "prerequisites": [
+      "AI302"
+    ]
+  },
+  {
+    "course_id": "AI305",
+    "course_name": "Computer Vision",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Elective",
+    "prerequisites": [
+      "AI302"
+    ]
+  },
+  {
+    "course_id": "RB301",
+    "course_name": "Introduction to Robotics",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CS202",
+      "CS301"
+    ]
+  },
+  {
+    "course_id": "RB302",
+    "course_name": "Control Systems",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "RB301"
+    ]
+  },
+  {
+    "course_id": "RB303",
+    "course_name": "Embedded Systems Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Elective",
+    "prerequisites": [
+      "CS202"
+    ]
+  },
+  {
+    "course_id": "RB304",
+    "course_name": "Autonomous Navigation",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Elective",
+    "prerequisites": [
+      "RB302"
+    ]
+  },
+  {
+    "course_id": "RB305",
+    "course_name": "Robot Perception",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Elective",
+    "prerequisites": [
+      "RB301",
+      "AI305"
+    ]
+  },
+  {
+    "course_id": "CE101",
+    "course_name": "Civil Engineering Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CE102",
+    "course_name": "Engineering Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CE101"
+    ]
+  },
+  {
+    "course_id": "CE201",
+    "course_name": "Structural Analysis",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CE102"
+    ]
+  },
+  {
+    "course_id": "CE202",
+    "course_name": "Construction Materials",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CE101"
+    ]
+  },
+  {
+    "course_id": "CE301",
+    "course_name": "Reinforced Concrete Design",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CE201",
+      "CE202"
+    ]
+  },
+  {
+    "course_id": "CE302",
+    "course_name": "Transportation Engineering",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CE102"
+    ]
+  },
+  {
+    "course_id": "CE303",
+    "course_name": "Geotechnical Engineering",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CE102"
+    ]
+  },
+  {
+    "course_id": "CE304",
+    "course_name": "Hydrology and Water Resources",
+    "program": "Civil Engineering",
+    "concentration": "Environmental",
+    "category": "Elective",
+    "prerequisites": [
+      "CE101"
+    ]
+  },
+  {
+    "course_id": "EE101",
+    "course_name": "Electrical Engineering Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "EE102",
+    "course_name": "Circuit Analysis",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "EE101"
+    ]
+  },
+  {
+    "course_id": "EE201",
+    "course_name": "Digital Logic Design",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "EE102"
+    ]
+  },
+  {
+    "course_id": "EE202",
+    "course_name": "Signals and Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "EE102"
+    ]
+  },
+  {
+    "course_id": "EE301",
+    "course_name": "Power Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "EE202"
+    ]
+  },
+  {
+    "course_id": "EE302",
+    "course_name": "Embedded Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "EE201"
+    ]
+  },
+  {
+    "course_id": "EE303",
+    "course_name": "Communication Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "EE202"
+    ]
+  },
+  {
+    "course_id": "EE304",
+    "course_name": "Microcontrollers and Interfacing",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "EE302"
+    ]
+  },
+  {
+    "course_id": "ME101",
+    "course_name": "Mechanical Engineering Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "ME102",
+    "course_name": "Engineering Thermodynamics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "ME101"
+    ]
+  },
+  {
+    "course_id": "ME201",
+    "course_name": "Fluid Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "ME102"
+    ]
+  },
+  {
+    "course_id": "ME202",
+    "course_name": "Mechanics of Materials",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "ME101"
+    ]
+  },
+  {
+    "course_id": "ME301",
+    "course_name": "Heat Transfer",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "ME102",
+      "ME201"
+    ]
+  },
+  {
+    "course_id": "ME302",
+    "course_name": "Manufacturing Processes",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "ME202"
+    ]
+  },
+  {
+    "course_id": "ME303",
+    "course_name": "Machine Design",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "ME202"
+    ]
+  },
+  {
+    "course_id": "ME304",
+    "course_name": "Automotive Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "ME303"
+    ]
+  }
+]

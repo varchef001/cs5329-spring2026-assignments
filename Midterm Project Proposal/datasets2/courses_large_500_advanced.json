@@ -1,0 +1,5124 @@
+[
+  {
+    "course_id": "CRS001",
+    "course_name": "Cloud Computing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS002",
+    "course_name": "Cyber Security Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS001"
+    ]
+  },
+  {
+    "course_id": "CRS003",
+    "course_name": "Distributed Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS004",
+    "course_name": "Database Management Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS001",
+      "CRS002",
+      "CRS003"
+    ]
+  },
+  {
+    "course_id": "CRS005",
+    "course_name": "Data Visualization",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS002",
+      "CRS003",
+      "CRS004"
+    ]
+  },
+  {
+    "course_id": "CRS006",
+    "course_name": "Applied Machine Learning",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS004"
+    ]
+  },
+  {
+    "course_id": "CRS007",
+    "course_name": "Software Testing and Quality Assurance",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS008",
+    "course_name": "Web Application Development",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS009",
+    "course_name": "Computer Networks",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS001",
+      "CRS002"
+    ]
+  },
+  {
+    "course_id": "CRS010",
+    "course_name": "Operating Systems",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS007"
+    ]
+  },
+  {
+    "course_id": "CRS011",
+    "course_name": "Artificial Intelligence",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS012",
+    "course_name": "Natural Language Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS013",
+    "course_name": "Computer Vision",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CRS001",
+      "CRS003",
+      "CRS010"
+    ]
+  },
+  {
+    "course_id": "CRS014",
+    "course_name": "Big Data Analytics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS006"
+    ]
+  },
+  {
+    "course_id": "CRS015",
+    "course_name": "Robotics Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS003",
+      "CRS007",
+      "CRS009"
+    ]
+  },
+  {
+    "course_id": "CRS016",
+    "course_name": "Embedded Systems Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CRS010"
+    ]
+  },
+  {
+    "course_id": "CRS017",
+    "course_name": "Control Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS007",
+      "CRS011",
+      "CRS013"
+    ]
+  },
+  {
+    "course_id": "CRS018",
+    "course_name": "Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS001",
+      "CRS004"
+    ]
+  },
+  {
+    "course_id": "CRS019",
+    "course_name": "Power Electronics",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS020",
+    "course_name": "Engineering Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS009",
+      "CRS011"
+    ]
+  },
+  {
+    "course_id": "CRS021",
+    "course_name": "Structural Analysis",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS004",
+      "CRS005"
+    ]
+  },
+  {
+    "course_id": "CRS022",
+    "course_name": "Transportation Engineering",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS006",
+      "CRS008",
+      "CRS016"
+    ]
+  },
+  {
+    "course_id": "CRS023",
+    "course_name": "Fluid Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS024",
+    "course_name": "Engineering Thermodynamics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS011"
+    ]
+  },
+  {
+    "course_id": "CRS025",
+    "course_name": "Machine Design",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS026",
+    "course_name": "Advanced Cloud Computing",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CRS007",
+      "CRS022"
+    ]
+  },
+  {
+    "course_id": "CRS027",
+    "course_name": "Advanced Cyber Security Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS001",
+      "CRS009",
+      "CRS018"
+    ]
+  },
+  {
+    "course_id": "CRS028",
+    "course_name": "Advanced Distributed Systems",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS029",
+    "course_name": "Advanced Database Management Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS030",
+    "course_name": "Advanced Data Visualization",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CRS010",
+      "CRS017"
+    ]
+  },
+  {
+    "course_id": "CRS031",
+    "course_name": "Advanced Applied Machine Learning",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS010"
+    ]
+  },
+  {
+    "course_id": "CRS032",
+    "course_name": "Advanced Software Testing and Quality Assurance",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS013"
+    ]
+  },
+  {
+    "course_id": "CRS033",
+    "course_name": "Advanced Web Application Development",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS023",
+      "CRS026"
+    ]
+  },
+  {
+    "course_id": "CRS034",
+    "course_name": "Advanced Computer Networks",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS003",
+      "CRS004"
+    ]
+  },
+  {
+    "course_id": "CRS035",
+    "course_name": "Advanced Operating Systems",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS036",
+    "course_name": "Advanced Artificial Intelligence",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS016",
+      "CRS023",
+      "CRS033"
+    ]
+  },
+  {
+    "course_id": "CRS037",
+    "course_name": "Advanced Natural Language Processing",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS025"
+    ]
+  },
+  {
+    "course_id": "CRS038",
+    "course_name": "Advanced Computer Vision",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS001",
+      "CRS007"
+    ]
+  },
+  {
+    "course_id": "CRS039",
+    "course_name": "Advanced Big Data Analytics",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS021",
+      "CRS032"
+    ]
+  },
+  {
+    "course_id": "CRS040",
+    "course_name": "Advanced Robotics Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS041",
+    "course_name": "Advanced Embedded Systems Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS007"
+    ]
+  },
+  {
+    "course_id": "CRS042",
+    "course_name": "Advanced Control Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS003",
+      "CRS010"
+    ]
+  },
+  {
+    "course_id": "CRS043",
+    "course_name": "Advanced Digital Signal Processing",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS029",
+      "CRS035"
+    ]
+  },
+  {
+    "course_id": "CRS044",
+    "course_name": "Advanced Power Electronics",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS004",
+      "CRS028",
+      "CRS032"
+    ]
+  },
+  {
+    "course_id": "CRS045",
+    "course_name": "Advanced Engineering Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS016",
+      "CRS017",
+      "CRS028"
+    ]
+  },
+  {
+    "course_id": "CRS046",
+    "course_name": "Advanced Structural Analysis",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS019",
+      "CRS036",
+      "CRS041"
+    ]
+  },
+  {
+    "course_id": "CRS047",
+    "course_name": "Advanced Transportation Engineering",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CRS041"
+    ]
+  },
+  {
+    "course_id": "CRS048",
+    "course_name": "Advanced Fluid Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS049",
+    "course_name": "Advanced Engineering Thermodynamics",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS050",
+    "course_name": "Advanced Machine Design",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS009",
+      "CRS032",
+      "CRS047"
+    ]
+  },
+  {
+    "course_id": "CRS051",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS052",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS009"
+    ]
+  },
+  {
+    "course_id": "CRS053",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS036"
+    ]
+  },
+  {
+    "course_id": "CRS054",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS055",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS056",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS035"
+    ]
+  },
+  {
+    "course_id": "CRS057",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS032",
+      "CRS034"
+    ]
+  },
+  {
+    "course_id": "CRS058",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS018"
+    ]
+  },
+  {
+    "course_id": "CRS059",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS060",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS009",
+      "CRS036"
+    ]
+  },
+  {
+    "course_id": "CRS061",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS011",
+      "CRS021"
+    ]
+  },
+  {
+    "course_id": "CRS062",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS044",
+      "CRS049",
+      "CRS054"
+    ]
+  },
+  {
+    "course_id": "CRS063",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS015",
+      "CRS017",
+      "CRS036"
+    ]
+  },
+  {
+    "course_id": "CRS064",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS016"
+    ]
+  },
+  {
+    "course_id": "CRS065",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS066",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS042"
+    ]
+  },
+  {
+    "course_id": "CRS067",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS027",
+      "CRS031"
+    ]
+  },
+  {
+    "course_id": "CRS068",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS069",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS017",
+      "CRS020",
+      "CRS068"
+    ]
+  },
+  {
+    "course_id": "CRS070",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS004"
+    ]
+  },
+  {
+    "course_id": "CRS071",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS056",
+      "CRS057",
+      "CRS066"
+    ]
+  },
+  {
+    "course_id": "CRS072",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS044"
+    ]
+  },
+  {
+    "course_id": "CRS073",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS074",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS010",
+      "CRS045"
+    ]
+  },
+  {
+    "course_id": "CRS075",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CRS019",
+      "CRS061"
+    ]
+  },
+  {
+    "course_id": "CRS076",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CRS025",
+      "CRS031"
+    ]
+  },
+  {
+    "course_id": "CRS077",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS009",
+      "CRS026"
+    ]
+  },
+  {
+    "course_id": "CRS078",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS027",
+      "CRS066",
+      "CRS077"
+    ]
+  },
+  {
+    "course_id": "CRS079",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS051"
+    ]
+  },
+  {
+    "course_id": "CRS080",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS015"
+    ]
+  },
+  {
+    "course_id": "CRS081",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS027",
+      "CRS050",
+      "CRS064"
+    ]
+  },
+  {
+    "course_id": "CRS082",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS058"
+    ]
+  },
+  {
+    "course_id": "CRS083",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS078"
+    ]
+  },
+  {
+    "course_id": "CRS084",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS057"
+    ]
+  },
+  {
+    "course_id": "CRS085",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS016",
+      "CRS052",
+      "CRS071"
+    ]
+  },
+  {
+    "course_id": "CRS086",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS071"
+    ]
+  },
+  {
+    "course_id": "CRS087",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS032",
+      "CRS074"
+    ]
+  },
+  {
+    "course_id": "CRS088",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS002",
+      "CRS014"
+    ]
+  },
+  {
+    "course_id": "CRS089",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS029",
+      "CRS046",
+      "CRS051"
+    ]
+  },
+  {
+    "course_id": "CRS090",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS053",
+      "CRS071",
+      "CRS088"
+    ]
+  },
+  {
+    "course_id": "CRS091",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS092",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS007",
+      "CRS072",
+      "CRS090"
+    ]
+  },
+  {
+    "course_id": "CRS093",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS044"
+    ]
+  },
+  {
+    "course_id": "CRS094",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS056"
+    ]
+  },
+  {
+    "course_id": "CRS095",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS096",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS004"
+    ]
+  },
+  {
+    "course_id": "CRS097",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS004"
+    ]
+  },
+  {
+    "course_id": "CRS098",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS002",
+      "CRS092"
+    ]
+  },
+  {
+    "course_id": "CRS099",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS038"
+    ]
+  },
+  {
+    "course_id": "CRS100",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS012",
+      "CRS057",
+      "CRS065"
+    ]
+  },
+  {
+    "course_id": "CRS101",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS025",
+      "CRS086",
+      "CRS090"
+    ]
+  },
+  {
+    "course_id": "CRS102",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS103",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS069",
+      "CRS095"
+    ]
+  },
+  {
+    "course_id": "CRS104",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS021"
+    ]
+  },
+  {
+    "course_id": "CRS105",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS106",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CRS005"
+    ]
+  },
+  {
+    "course_id": "CRS107",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS009",
+      "CRS058",
+      "CRS071"
+    ]
+  },
+  {
+    "course_id": "CRS108",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS109",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS097"
+    ]
+  },
+  {
+    "course_id": "CRS110",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS016"
+    ]
+  },
+  {
+    "course_id": "CRS111",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS051"
+    ]
+  },
+  {
+    "course_id": "CRS112",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CRS023",
+      "CRS031",
+      "CRS064"
+    ]
+  },
+  {
+    "course_id": "CRS113",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS080"
+    ]
+  },
+  {
+    "course_id": "CRS114",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS047",
+      "CRS058",
+      "CRS059"
+    ]
+  },
+  {
+    "course_id": "CRS115",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS116",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS025",
+      "CRS033",
+      "CRS090"
+    ]
+  },
+  {
+    "course_id": "CRS117",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS118",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS005",
+      "CRS045",
+      "CRS074"
+    ]
+  },
+  {
+    "course_id": "CRS119",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS120",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS121",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS122",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS067"
+    ]
+  },
+  {
+    "course_id": "CRS123",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS042",
+      "CRS048",
+      "CRS062"
+    ]
+  },
+  {
+    "course_id": "CRS124",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS047",
+      "CRS066",
+      "CRS072"
+    ]
+  },
+  {
+    "course_id": "CRS125",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS043",
+      "CRS089",
+      "CRS096"
+    ]
+  },
+  {
+    "course_id": "CRS126",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS014",
+      "CRS091",
+      "CRS115"
+    ]
+  },
+  {
+    "course_id": "CRS127",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS024",
+      "CRS057"
+    ]
+  },
+  {
+    "course_id": "CRS128",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS129",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS130",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS024",
+      "CRS086",
+      "CRS112"
+    ]
+  },
+  {
+    "course_id": "CRS131",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS103",
+      "CRS111"
+    ]
+  },
+  {
+    "course_id": "CRS132",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CRS029",
+      "CRS061",
+      "CRS101"
+    ]
+  },
+  {
+    "course_id": "CRS133",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS129"
+    ]
+  },
+  {
+    "course_id": "CRS134",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS025",
+      "CRS048"
+    ]
+  },
+  {
+    "course_id": "CRS135",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS033",
+      "CRS060",
+      "CRS088"
+    ]
+  },
+  {
+    "course_id": "CRS136",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS137",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS097",
+      "CRS098"
+    ]
+  },
+  {
+    "course_id": "CRS138",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS027",
+      "CRS039",
+      "CRS089"
+    ]
+  },
+  {
+    "course_id": "CRS139",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS070",
+      "CRS072"
+    ]
+  },
+  {
+    "course_id": "CRS140",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS141",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS041"
+    ]
+  },
+  {
+    "course_id": "CRS142",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS066"
+    ]
+  },
+  {
+    "course_id": "CRS143",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS144",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS006",
+      "CRS121"
+    ]
+  },
+  {
+    "course_id": "CRS145",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS146",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS114"
+    ]
+  },
+  {
+    "course_id": "CRS147",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS148",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS149",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS002",
+      "CRS010",
+      "CRS069"
+    ]
+  },
+  {
+    "course_id": "CRS150",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS010",
+      "CRS073",
+      "CRS091"
+    ]
+  },
+  {
+    "course_id": "CRS151",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS095",
+      "CRS119",
+      "CRS126"
+    ]
+  },
+  {
+    "course_id": "CRS152",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS093",
+      "CRS111"
+    ]
+  },
+  {
+    "course_id": "CRS153",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS085"
+    ]
+  },
+  {
+    "course_id": "CRS154",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS155",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS048",
+      "CRS092",
+      "CRS140"
+    ]
+  },
+  {
+    "course_id": "CRS156",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS157",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS048"
+    ]
+  },
+  {
+    "course_id": "CRS158",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS040",
+      "CRS126"
+    ]
+  },
+  {
+    "course_id": "CRS159",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS060",
+      "CRS069"
+    ]
+  },
+  {
+    "course_id": "CRS160",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS161",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS017",
+      "CRS081",
+      "CRS096"
+    ]
+  },
+  {
+    "course_id": "CRS162",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS059",
+      "CRS063",
+      "CRS075"
+    ]
+  },
+  {
+    "course_id": "CRS163",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS164",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS165",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS057"
+    ]
+  },
+  {
+    "course_id": "CRS166",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS041",
+      "CRS099"
+    ]
+  },
+  {
+    "course_id": "CRS167",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS113"
+    ]
+  },
+  {
+    "course_id": "CRS168",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS169",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS143"
+    ]
+  },
+  {
+    "course_id": "CRS170",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS171",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS172",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS017",
+      "CRS095",
+      "CRS163"
+    ]
+  },
+  {
+    "course_id": "CRS173",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS174",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS033",
+      "CRS089",
+      "CRS146"
+    ]
+  },
+  {
+    "course_id": "CRS175",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS032",
+      "CRS140"
+    ]
+  },
+  {
+    "course_id": "CRS176",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS111"
+    ]
+  },
+  {
+    "course_id": "CRS177",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS056",
+      "CRS168"
+    ]
+  },
+  {
+    "course_id": "CRS178",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS179",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS042",
+      "CRS087",
+      "CRS140"
+    ]
+  },
+  {
+    "course_id": "CRS180",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS181",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS002",
+      "CRS151"
+    ]
+  },
+  {
+    "course_id": "CRS182",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS183",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS019"
+    ]
+  },
+  {
+    "course_id": "CRS184",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS185",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS032"
+    ]
+  },
+  {
+    "course_id": "CRS186",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS112"
+    ]
+  },
+  {
+    "course_id": "CRS187",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS188",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS002",
+      "CRS032",
+      "CRS143"
+    ]
+  },
+  {
+    "course_id": "CRS189",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS050",
+      "CRS072",
+      "CRS095"
+    ]
+  },
+  {
+    "course_id": "CRS190",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS031",
+      "CRS043"
+    ]
+  },
+  {
+    "course_id": "CRS191",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS048",
+      "CRS188"
+    ]
+  },
+  {
+    "course_id": "CRS192",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS127",
+      "CRS128",
+      "CRS139"
+    ]
+  },
+  {
+    "course_id": "CRS193",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS088",
+      "CRS159"
+    ]
+  },
+  {
+    "course_id": "CRS194",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS087"
+    ]
+  },
+  {
+    "course_id": "CRS195",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS023",
+      "CRS180"
+    ]
+  },
+  {
+    "course_id": "CRS196",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS197",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS198",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS138",
+      "CRS150",
+      "CRS153"
+    ]
+  },
+  {
+    "course_id": "CRS199",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS011",
+      "CRS059",
+      "CRS071"
+    ]
+  },
+  {
+    "course_id": "CRS200",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS034",
+      "CRS067",
+      "CRS102"
+    ]
+  },
+  {
+    "course_id": "CRS201",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS020",
+      "CRS074"
+    ]
+  },
+  {
+    "course_id": "CRS202",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS093",
+      "CRS118"
+    ]
+  },
+  {
+    "course_id": "CRS203",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS029",
+      "CRS076",
+      "CRS129"
+    ]
+  },
+  {
+    "course_id": "CRS204",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CRS018",
+      "CRS054"
+    ]
+  },
+  {
+    "course_id": "CRS205",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS001"
+    ]
+  },
+  {
+    "course_id": "CRS206",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS008",
+      "CRS012",
+      "CRS062"
+    ]
+  },
+  {
+    "course_id": "CRS207",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS146"
+    ]
+  },
+  {
+    "course_id": "CRS208",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS209",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS072"
+    ]
+  },
+  {
+    "course_id": "CRS210",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS166",
+      "CRS189"
+    ]
+  },
+  {
+    "course_id": "CRS211",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS048",
+      "CRS135"
+    ]
+  },
+  {
+    "course_id": "CRS212",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS119",
+      "CRS173"
+    ]
+  },
+  {
+    "course_id": "CRS213",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS002",
+      "CRS021",
+      "CRS212"
+    ]
+  },
+  {
+    "course_id": "CRS214",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS192"
+    ]
+  },
+  {
+    "course_id": "CRS215",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS216",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS217",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS011",
+      "CRS117"
+    ]
+  },
+  {
+    "course_id": "CRS218",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS001",
+      "CRS078",
+      "CRS196"
+    ]
+  },
+  {
+    "course_id": "CRS219",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS014",
+      "CRS082"
+    ]
+  },
+  {
+    "course_id": "CRS220",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS017",
+      "CRS101",
+      "CRS102"
+    ]
+  },
+  {
+    "course_id": "CRS221",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS222",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS177"
+    ]
+  },
+  {
+    "course_id": "CRS223",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS047",
+      "CRS111"
+    ]
+  },
+  {
+    "course_id": "CRS224",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS203",
+      "CRS218"
+    ]
+  },
+  {
+    "course_id": "CRS225",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS046"
+    ]
+  },
+  {
+    "course_id": "CRS226",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS227",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS228",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS115",
+      "CRS167"
+    ]
+  },
+  {
+    "course_id": "CRS229",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS105"
+    ]
+  },
+  {
+    "course_id": "CRS230",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS045",
+      "CRS083"
+    ]
+  },
+  {
+    "course_id": "CRS231",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS005",
+      "CRS041"
+    ]
+  },
+  {
+    "course_id": "CRS232",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS111",
+      "CRS116",
+      "CRS178"
+    ]
+  },
+  {
+    "course_id": "CRS233",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS118"
+    ]
+  },
+  {
+    "course_id": "CRS234",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS002"
+    ]
+  },
+  {
+    "course_id": "CRS235",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS165",
+      "CRS169",
+      "CRS192"
+    ]
+  },
+  {
+    "course_id": "CRS236",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CRS167",
+      "CRS204"
+    ]
+  },
+  {
+    "course_id": "CRS237",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS155"
+    ]
+  },
+  {
+    "course_id": "CRS238",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS041",
+      "CRS054"
+    ]
+  },
+  {
+    "course_id": "CRS239",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS155"
+    ]
+  },
+  {
+    "course_id": "CRS240",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS241",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS006"
+    ]
+  },
+  {
+    "course_id": "CRS242",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS243",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS028",
+      "CRS165"
+    ]
+  },
+  {
+    "course_id": "CRS244",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS141"
+    ]
+  },
+  {
+    "course_id": "CRS245",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS176",
+      "CRS182"
+    ]
+  },
+  {
+    "course_id": "CRS246",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS081"
+    ]
+  },
+  {
+    "course_id": "CRS247",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS248",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS207",
+      "CRS242"
+    ]
+  },
+  {
+    "course_id": "CRS249",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS250",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS044",
+      "CRS248"
+    ]
+  },
+  {
+    "course_id": "CRS251",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS252",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS253",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS109",
+      "CRS150",
+      "CRS170"
+    ]
+  },
+  {
+    "course_id": "CRS254",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS052",
+      "CRS142",
+      "CRS146"
+    ]
+  },
+  {
+    "course_id": "CRS255",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS095",
+      "CRS180",
+      "CRS229"
+    ]
+  },
+  {
+    "course_id": "CRS256",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS140",
+      "CRS219",
+      "CRS233"
+    ]
+  },
+  {
+    "course_id": "CRS257",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS082",
+      "CRS106",
+      "CRS254"
+    ]
+  },
+  {
+    "course_id": "CRS258",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS259",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS172"
+    ]
+  },
+  {
+    "course_id": "CRS260",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS261",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS160",
+      "CRS238"
+    ]
+  },
+  {
+    "course_id": "CRS262",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS004"
+    ]
+  },
+  {
+    "course_id": "CRS263",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS184"
+    ]
+  },
+  {
+    "course_id": "CRS264",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS265",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS223"
+    ]
+  },
+  {
+    "course_id": "CRS266",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS136"
+    ]
+  },
+  {
+    "course_id": "CRS267",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS045",
+      "CRS101",
+      "CRS116"
+    ]
+  },
+  {
+    "course_id": "CRS268",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS059"
+    ]
+  },
+  {
+    "course_id": "CRS269",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS019"
+    ]
+  },
+  {
+    "course_id": "CRS270",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS001",
+      "CRS167",
+      "CRS179"
+    ]
+  },
+  {
+    "course_id": "CRS271",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS012"
+    ]
+  },
+  {
+    "course_id": "CRS272",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS273",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS234"
+    ]
+  },
+  {
+    "course_id": "CRS274",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS180",
+      "CRS239",
+      "CRS254"
+    ]
+  },
+  {
+    "course_id": "CRS275",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS062",
+      "CRS202"
+    ]
+  },
+  {
+    "course_id": "CRS276",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS008"
+    ]
+  },
+  {
+    "course_id": "CRS277",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS003",
+      "CRS105",
+      "CRS183"
+    ]
+  },
+  {
+    "course_id": "CRS278",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS279",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS152",
+      "CRS219"
+    ]
+  },
+  {
+    "course_id": "CRS280",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CRS061",
+      "CRS163",
+      "CRS277"
+    ]
+  },
+  {
+    "course_id": "CRS281",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS259"
+    ]
+  },
+  {
+    "course_id": "CRS282",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS084"
+    ]
+  },
+  {
+    "course_id": "CRS283",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CRS088"
+    ]
+  },
+  {
+    "course_id": "CRS284",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS285",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS067",
+      "CRS244"
+    ]
+  },
+  {
+    "course_id": "CRS286",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS246",
+      "CRS269"
+    ]
+  },
+  {
+    "course_id": "CRS287",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS037",
+      "CRS146",
+      "CRS185"
+    ]
+  },
+  {
+    "course_id": "CRS288",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS130",
+      "CRS178",
+      "CRS213"
+    ]
+  },
+  {
+    "course_id": "CRS289",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CRS008",
+      "CRS010",
+      "CRS226"
+    ]
+  },
+  {
+    "course_id": "CRS290",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS241"
+    ]
+  },
+  {
+    "course_id": "CRS291",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS020"
+    ]
+  },
+  {
+    "course_id": "CRS292",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS293",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS047",
+      "CRS073",
+      "CRS145"
+    ]
+  },
+  {
+    "course_id": "CRS294",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS280"
+    ]
+  },
+  {
+    "course_id": "CRS295",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS113"
+    ]
+  },
+  {
+    "course_id": "CRS296",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS297",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS298",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS112",
+      "CRS154",
+      "CRS196"
+    ]
+  },
+  {
+    "course_id": "CRS299",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS300",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS175",
+      "CRS296"
+    ]
+  },
+  {
+    "course_id": "CRS301",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS051",
+      "CRS123",
+      "CRS226"
+    ]
+  },
+  {
+    "course_id": "CRS302",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS303",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS052",
+      "CRS179",
+      "CRS245"
+    ]
+  },
+  {
+    "course_id": "CRS304",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS065",
+      "CRS225"
+    ]
+  },
+  {
+    "course_id": "CRS305",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS049",
+      "CRS088"
+    ]
+  },
+  {
+    "course_id": "CRS306",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS076"
+    ]
+  },
+  {
+    "course_id": "CRS307",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS063",
+      "CRS145"
+    ]
+  },
+  {
+    "course_id": "CRS308",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CRS091"
+    ]
+  },
+  {
+    "course_id": "CRS309",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS251",
+      "CRS289"
+    ]
+  },
+  {
+    "course_id": "CRS310",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS311",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS081",
+      "CRS131"
+    ]
+  },
+  {
+    "course_id": "CRS312",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS069"
+    ]
+  },
+  {
+    "course_id": "CRS313",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS061",
+      "CRS169"
+    ]
+  },
+  {
+    "course_id": "CRS314",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS083",
+      "CRS287"
+    ]
+  },
+  {
+    "course_id": "CRS315",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS316",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS075",
+      "CRS228"
+    ]
+  },
+  {
+    "course_id": "CRS317",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS011",
+      "CRS015",
+      "CRS260"
+    ]
+  },
+  {
+    "course_id": "CRS318",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS305"
+    ]
+  },
+  {
+    "course_id": "CRS319",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS038",
+      "CRS146",
+      "CRS305"
+    ]
+  },
+  {
+    "course_id": "CRS320",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS321",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS322",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS089",
+      "CRS294"
+    ]
+  },
+  {
+    "course_id": "CRS323",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS041",
+      "CRS223",
+      "CRS246"
+    ]
+  },
+  {
+    "course_id": "CRS324",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS238"
+    ]
+  },
+  {
+    "course_id": "CRS325",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS062",
+      "CRS160",
+      "CRS304"
+    ]
+  },
+  {
+    "course_id": "CRS326",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS124",
+      "CRS175",
+      "CRS311"
+    ]
+  },
+  {
+    "course_id": "CRS327",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS328",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CRS060",
+      "CRS129",
+      "CRS222"
+    ]
+  },
+  {
+    "course_id": "CRS329",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS066",
+      "CRS220"
+    ]
+  },
+  {
+    "course_id": "CRS330",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS060",
+      "CRS125"
+    ]
+  },
+  {
+    "course_id": "CRS331",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS332",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS114",
+      "CRS150"
+    ]
+  },
+  {
+    "course_id": "CRS333",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS334",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS111",
+      "CRS157",
+      "CRS311"
+    ]
+  },
+  {
+    "course_id": "CRS335",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS336",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS175",
+      "CRS209"
+    ]
+  },
+  {
+    "course_id": "CRS337",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS241"
+    ]
+  },
+  {
+    "course_id": "CRS338",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS339",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS340",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS341",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS342",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS071"
+    ]
+  },
+  {
+    "course_id": "CRS343",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS307"
+    ]
+  },
+  {
+    "course_id": "CRS344",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS342"
+    ]
+  },
+  {
+    "course_id": "CRS345",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS346",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS044",
+      "CRS290"
+    ]
+  },
+  {
+    "course_id": "CRS347",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS105",
+      "CRS137",
+      "CRS308"
+    ]
+  },
+  {
+    "course_id": "CRS348",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS087",
+      "CRS207"
+    ]
+  },
+  {
+    "course_id": "CRS349",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS230"
+    ]
+  },
+  {
+    "course_id": "CRS350",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS183"
+    ]
+  },
+  {
+    "course_id": "CRS351",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS143",
+      "CRS243",
+      "CRS246"
+    ]
+  },
+  {
+    "course_id": "CRS352",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS353",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS007",
+      "CRS162"
+    ]
+  },
+  {
+    "course_id": "CRS354",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS280"
+    ]
+  },
+  {
+    "course_id": "CRS355",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS227"
+    ]
+  },
+  {
+    "course_id": "CRS356",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS357",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CRS261"
+    ]
+  },
+  {
+    "course_id": "CRS358",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS020",
+      "CRS070"
+    ]
+  },
+  {
+    "course_id": "CRS359",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS224"
+    ]
+  },
+  {
+    "course_id": "CRS360",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS035"
+    ]
+  },
+  {
+    "course_id": "CRS361",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS362",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS036",
+      "CRS085",
+      "CRS260"
+    ]
+  },
+  {
+    "course_id": "CRS363",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS216"
+    ]
+  },
+  {
+    "course_id": "CRS364",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS091",
+      "CRS102"
+    ]
+  },
+  {
+    "course_id": "CRS365",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS244"
+    ]
+  },
+  {
+    "course_id": "CRS366",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS132"
+    ]
+  },
+  {
+    "course_id": "CRS367",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS368",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS369",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS370",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CRS269"
+    ]
+  },
+  {
+    "course_id": "CRS371",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS100"
+    ]
+  },
+  {
+    "course_id": "CRS372",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS373",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS268"
+    ]
+  },
+  {
+    "course_id": "CRS374",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS252"
+    ]
+  },
+  {
+    "course_id": "CRS375",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS057",
+      "CRS140"
+    ]
+  },
+  {
+    "course_id": "CRS376",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS144",
+      "CRS279"
+    ]
+  },
+  {
+    "course_id": "CRS377",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS378",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS379",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS045"
+    ]
+  },
+  {
+    "course_id": "CRS380",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS030",
+      "CRS153",
+      "CRS328"
+    ]
+  },
+  {
+    "course_id": "CRS381",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS026",
+      "CRS075"
+    ]
+  },
+  {
+    "course_id": "CRS382",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS010",
+      "CRS208"
+    ]
+  },
+  {
+    "course_id": "CRS383",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS012",
+      "CRS265",
+      "CRS368"
+    ]
+  },
+  {
+    "course_id": "CRS384",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS085",
+      "CRS147",
+      "CRS149"
+    ]
+  },
+  {
+    "course_id": "CRS385",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS386",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS185",
+      "CRS195",
+      "CRS242"
+    ]
+  },
+  {
+    "course_id": "CRS387",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS051",
+      "CRS316",
+      "CRS342"
+    ]
+  },
+  {
+    "course_id": "CRS388",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS074",
+      "CRS359"
+    ]
+  },
+  {
+    "course_id": "CRS389",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS127",
+      "CRS162"
+    ]
+  },
+  {
+    "course_id": "CRS390",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS162",
+      "CRS356"
+    ]
+  },
+  {
+    "course_id": "CRS391",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS143",
+      "CRS198",
+      "CRS319"
+    ]
+  },
+  {
+    "course_id": "CRS392",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS109"
+    ]
+  },
+  {
+    "course_id": "CRS393",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS394",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS395",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS016",
+      "CRS044",
+      "CRS264"
+    ]
+  },
+  {
+    "course_id": "CRS396",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS397",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS238",
+      "CRS264",
+      "CRS325"
+    ]
+  },
+  {
+    "course_id": "CRS398",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS048",
+      "CRS083"
+    ]
+  },
+  {
+    "course_id": "CRS399",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS095",
+      "CRS128",
+      "CRS209"
+    ]
+  },
+  {
+    "course_id": "CRS400",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS111",
+      "CRS112",
+      "CRS146"
+    ]
+  },
+  {
+    "course_id": "CRS401",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS402",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS028",
+      "CRS202",
+      "CRS219"
+    ]
+  },
+  {
+    "course_id": "CRS403",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS213",
+      "CRS301"
+    ]
+  },
+  {
+    "course_id": "CRS404",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS197",
+      "CRS272"
+    ]
+  },
+  {
+    "course_id": "CRS405",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS406",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS032"
+    ]
+  },
+  {
+    "course_id": "CRS407",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS240",
+      "CRS342"
+    ]
+  },
+  {
+    "course_id": "CRS408",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS066",
+      "CRS103",
+      "CRS403"
+    ]
+  },
+  {
+    "course_id": "CRS409",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS083"
+    ]
+  },
+  {
+    "course_id": "CRS410",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS411",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS155"
+    ]
+  },
+  {
+    "course_id": "CRS412",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CRS297"
+    ]
+  },
+  {
+    "course_id": "CRS413",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS414",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS043",
+      "CRS114",
+      "CRS226"
+    ]
+  },
+  {
+    "course_id": "CRS415",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS147",
+      "CRS361",
+      "CRS374"
+    ]
+  },
+  {
+    "course_id": "CRS416",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS409"
+    ]
+  },
+  {
+    "course_id": "CRS417",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS044"
+    ]
+  },
+  {
+    "course_id": "CRS418",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS048",
+      "CRS061"
+    ]
+  },
+  {
+    "course_id": "CRS419",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS041",
+      "CRS305"
+    ]
+  },
+  {
+    "course_id": "CRS420",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS022",
+      "CRS198",
+      "CRS373"
+    ]
+  },
+  {
+    "course_id": "CRS421",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS422",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS153",
+      "CRS275",
+      "CRS384"
+    ]
+  },
+  {
+    "course_id": "CRS423",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Required",
+    "prerequisites": [
+      "CRS028",
+      "CRS033",
+      "CRS415"
+    ]
+  },
+  {
+    "course_id": "CRS424",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CRS274"
+    ]
+  },
+  {
+    "course_id": "CRS425",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS426",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS270",
+      "CRS304",
+      "CRS415"
+    ]
+  },
+  {
+    "course_id": "CRS427",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS428",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS114",
+      "CRS210"
+    ]
+  },
+  {
+    "course_id": "CRS429",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS430",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS173"
+    ]
+  },
+  {
+    "course_id": "CRS431",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS275",
+      "CRS343",
+      "CRS389"
+    ]
+  },
+  {
+    "course_id": "CRS432",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS057",
+      "CRS390"
+    ]
+  },
+  {
+    "course_id": "CRS433",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS193"
+    ]
+  },
+  {
+    "course_id": "CRS434",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS057",
+      "CRS230"
+    ]
+  },
+  {
+    "course_id": "CRS435",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS436",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS437",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS188",
+      "CRS368"
+    ]
+  },
+  {
+    "course_id": "CRS438",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Mechanical Engineering",
+    "concentration": "Design Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS077",
+      "CRS316"
+    ]
+  },
+  {
+    "course_id": "CRS439",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS218"
+    ]
+  },
+  {
+    "course_id": "CRS440",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS162",
+      "CRS214",
+      "CRS336"
+    ]
+  },
+  {
+    "course_id": "CRS441",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS442",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS291",
+      "CRS316"
+    ]
+  },
+  {
+    "course_id": "CRS443",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS199",
+      "CRS336",
+      "CRS358"
+    ]
+  },
+  {
+    "course_id": "CRS444",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS068",
+      "CRS081",
+      "CRS308"
+    ]
+  },
+  {
+    "course_id": "CRS445",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS186",
+      "CRS224",
+      "CRS318"
+    ]
+  },
+  {
+    "course_id": "CRS446",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS055",
+      "CRS188",
+      "CRS305"
+    ]
+  },
+  {
+    "course_id": "CRS447",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS448",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS212",
+      "CRS271",
+      "CRS390"
+    ]
+  },
+  {
+    "course_id": "CRS449",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS104",
+      "CRS271"
+    ]
+  },
+  {
+    "course_id": "CRS450",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS262"
+    ]
+  },
+  {
+    "course_id": "CRS451",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Computer Science",
+    "concentration": "Robotics",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS001",
+      "CRS084",
+      "CRS187"
+    ]
+  },
+  {
+    "course_id": "CRS452",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS414"
+    ]
+  },
+  {
+    "course_id": "CRS453",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS284"
+    ]
+  },
+  {
+    "course_id": "CRS454",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Required",
+    "prerequisites": [
+      "CRS400",
+      "CRS448"
+    ]
+  },
+  {
+    "course_id": "CRS455",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS456",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS069"
+    ]
+  },
+  {
+    "course_id": "CRS457",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS458",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS459",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS201",
+      "CRS289",
+      "CRS423"
+    ]
+  },
+  {
+    "course_id": "CRS460",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS211",
+      "CRS344"
+    ]
+  },
+  {
+    "course_id": "CRS461",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS127",
+      "CRS313",
+      "CRS412"
+    ]
+  },
+  {
+    "course_id": "CRS462",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS003",
+      "CRS162"
+    ]
+  },
+  {
+    "course_id": "CRS463",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS109",
+      "CRS368"
+    ]
+  },
+  {
+    "course_id": "CRS464",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS336"
+    ]
+  },
+  {
+    "course_id": "CRS465",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS166"
+    ]
+  },
+  {
+    "course_id": "CRS466",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Software Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS036",
+      "CRS115"
+    ]
+  },
+  {
+    "course_id": "CRS467",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS132",
+      "CRS335",
+      "CRS461"
+    ]
+  },
+  {
+    "course_id": "CRS468",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS083",
+      "CRS135"
+    ]
+  },
+  {
+    "course_id": "CRS469",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS218",
+      "CRS401"
+    ]
+  },
+  {
+    "course_id": "CRS470",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Mechanical Engineering",
+    "concentration": "Production Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS108"
+    ]
+  },
+  {
+    "course_id": "CRS471",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS429"
+    ]
+  },
+  {
+    "course_id": "CRS472",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS070",
+      "CRS188"
+    ]
+  },
+  {
+    "course_id": "CRS473",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Geotechnical",
+    "category": "Required",
+    "prerequisites": [
+      "CRS324",
+      "CRS397",
+      "CRS419"
+    ]
+  },
+  {
+    "course_id": "CRS474",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS347",
+      "CRS383"
+    ]
+  },
+  {
+    "course_id": "CRS475",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Required",
+    "prerequisites": [
+      "CRS051"
+    ]
+  },
+  {
+    "course_id": "CRS476",
+    "course_name": "Special Topics in Cloud Computing",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS394"
+    ]
+  },
+  {
+    "course_id": "CRS477",
+    "course_name": "Special Topics in Cyber Security Fundamentals",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS039",
+      "CRS273",
+      "CRS297"
+    ]
+  },
+  {
+    "course_id": "CRS478",
+    "course_name": "Special Topics in Distributed Systems",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS479",
+    "course_name": "Special Topics in Database Management Systems",
+    "program": "Civil Engineering",
+    "concentration": "Transportation",
+    "category": "Required",
+    "prerequisites": [
+      "CRS054"
+    ]
+  },
+  {
+    "course_id": "CRS480",
+    "course_name": "Special Topics in Data Visualization",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS071",
+      "CRS148",
+      "CRS282"
+    ]
+  },
+  {
+    "course_id": "CRS481",
+    "course_name": "Special Topics in Applied Machine Learning",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS104",
+      "CRS222"
+    ]
+  },
+  {
+    "course_id": "CRS482",
+    "course_name": "Special Topics in Software Testing and Quality Assurance",
+    "program": "Mechanical Engineering",
+    "concentration": "Thermal Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS225",
+      "CRS281",
+      "CRS348"
+    ]
+  },
+  {
+    "course_id": "CRS483",
+    "course_name": "Special Topics in Web Application Development",
+    "program": "Electrical Engineering",
+    "concentration": "Communications",
+    "category": "Required",
+    "prerequisites": [
+      "CRS014",
+      "CRS083",
+      "CRS178"
+    ]
+  },
+  {
+    "course_id": "CRS484",
+    "course_name": "Special Topics in Computer Networks",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS067",
+      "CRS244",
+      "CRS438"
+    ]
+  },
+  {
+    "course_id": "CRS485",
+    "course_name": "Special Topics in Operating Systems",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS132",
+      "CRS361",
+      "CRS390"
+    ]
+  },
+  {
+    "course_id": "CRS486",
+    "course_name": "Special Topics in Artificial Intelligence",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS231"
+    ]
+  },
+  {
+    "course_id": "CRS487",
+    "course_name": "Special Topics in Natural Language Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Embedded Systems",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS387"
+    ]
+  },
+  {
+    "course_id": "CRS488",
+    "course_name": "Special Topics in Computer Vision",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS063",
+      "CRS377",
+      "CRS463"
+    ]
+  },
+  {
+    "course_id": "CRS489",
+    "course_name": "Special Topics in Big Data Analytics",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CRS012",
+      "CRS423"
+    ]
+  },
+  {
+    "course_id": "CRS490",
+    "course_name": "Special Topics in Robotics Fundamentals",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS491",
+    "course_name": "Special Topics in Embedded Systems Fundamentals",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS009"
+    ]
+  },
+  {
+    "course_id": "CRS492",
+    "course_name": "Special Topics in Control Systems",
+    "program": "Computer Science",
+    "concentration": "Data Science",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS096",
+      "CRS216"
+    ]
+  },
+  {
+    "course_id": "CRS493",
+    "course_name": "Special Topics in Digital Signal Processing",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Elective",
+    "prerequisites": [
+      "CRS182",
+      "CRS239"
+    ]
+  },
+  {
+    "course_id": "CRS494",
+    "course_name": "Special Topics in Power Electronics",
+    "program": "Civil Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS116",
+      "CRS351"
+    ]
+  },
+  {
+    "course_id": "CRS495",
+    "course_name": "Special Topics in Engineering Mechanics",
+    "program": "Civil Engineering",
+    "concentration": "Structural Engineering",
+    "category": "Required",
+    "prerequisites": [
+      "CRS075",
+      "CRS273",
+      "CRS337"
+    ]
+  },
+  {
+    "course_id": "CRS496",
+    "course_name": "Special Topics in Structural Analysis",
+    "program": "Computer Science",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS053",
+      "CRS113",
+      "CRS385"
+    ]
+  },
+  {
+    "course_id": "CRS497",
+    "course_name": "Special Topics in Transportation Engineering",
+    "program": "Electrical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": []
+  },
+  {
+    "course_id": "CRS498",
+    "course_name": "Special Topics in Fluid Mechanics",
+    "program": "Computer Science",
+    "concentration": "AI & ML",
+    "category": "Required",
+    "prerequisites": [
+      "CRS072",
+      "CRS151",
+      "CRS310"
+    ]
+  },
+  {
+    "course_id": "CRS499",
+    "course_name": "Special Topics in Engineering Thermodynamics",
+    "program": "Mechanical Engineering",
+    "concentration": "Core",
+    "category": "Core",
+    "prerequisites": [
+      "CRS434"
+    ]
+  },
+  {
+    "course_id": "CRS500",
+    "course_name": "Special Topics in Machine Design",
+    "program": "Electrical Engineering",
+    "concentration": "Power Engineering",
+    "category": "Required",
+    "prerequisites": []
+  }
+]
