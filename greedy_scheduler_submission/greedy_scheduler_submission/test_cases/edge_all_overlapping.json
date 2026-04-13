@@ -1,0 +1,38 @@
+{
+  "resource_capacity": 4,
+  "category_limit": 1,
+  "tasks": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 6,
+      "weight": 12.0,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 1,
+      "start": 0,
+      "end": 6,
+      "weight": 9.0,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 6,
+      "weight": 11.0,
+      "resource": 3,
+      "category": "io"
+    },
+    {
+      "id": 3,
+      "start": 0,
+      "end": 6,
+      "weight": 7.0,
+      "resource": 2,
+      "category": "network"
+    }
+  ]
+}

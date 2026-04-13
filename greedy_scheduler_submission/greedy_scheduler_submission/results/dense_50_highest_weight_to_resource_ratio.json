@@ -1,0 +1,64 @@
+{
+  "strategy_name": "highest_weight_to_resource_ratio",
+  "selected_tasks": [
+    2,
+    8,
+    28,
+    32,
+    49
+  ],
+  "total_weight": 139.78,
+  "execution_time_seconds": 0.000187,
+  "utilization_timeline": {
+    "0-1": {
+      "resource_used": 2,
+      "categories": {
+        "io": 1
+      }
+    },
+    "1-4": {
+      "resource_used": 4,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "4-7": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 1
+      }
+    },
+    "7-12": {
+      "resource_used": 8,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 2
+      }
+    },
+    "12-16": {
+      "resource_used": 7,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 1
+      }
+    },
+    "16-17": {
+      "resource_used": 5,
+      "categories": {
+        "io": 1,
+        "network": 1
+      }
+    },
+    "17-20": {
+      "resource_used": 2,
+      "categories": {
+        "network": 1
+      }
+    }
+  }
+}

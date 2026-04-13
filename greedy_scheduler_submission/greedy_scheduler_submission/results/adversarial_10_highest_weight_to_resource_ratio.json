@@ -1,0 +1,51 @@
+{
+  "strategy_name": "highest_weight_to_resource_ratio",
+  "selected_tasks": [
+    0,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "total_weight": 108.63,
+  "execution_time_seconds": 5.2e-05,
+  "utilization_timeline": {
+    "0-10": {
+      "resource_used": 5,
+      "categories": {
+        "compute": 1
+      }
+    },
+    "10-12": {
+      "resource_used": 5,
+      "categories": {
+        "io": 1
+      }
+    },
+    "12-15": {
+      "resource_used": 5,
+      "categories": {
+        "network": 1
+      }
+    },
+    "15-17": {
+      "resource_used": 5,
+      "categories": {
+        "io": 1
+      }
+    },
+    "17-20": {
+      "resource_used": 5,
+      "categories": {
+        "io": 1
+      }
+    },
+    "20-22": {
+      "resource_used": 5,
+      "categories": {
+        "network": 1
+      }
+    }
+  }
+}

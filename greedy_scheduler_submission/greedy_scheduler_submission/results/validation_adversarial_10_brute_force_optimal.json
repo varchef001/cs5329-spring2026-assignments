@@ -1,0 +1,51 @@
+{
+  "strategy_name": "brute_force_optimal",
+  "selected_tasks": [
+    0,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "total_weight": 106.93,
+  "execution_time_seconds": 0.002052,
+  "utilization_timeline": {
+    "0-10": {
+      "resource_used": 5,
+      "categories": {
+        "compute": 1
+      }
+    },
+    "10-12": {
+      "resource_used": 5,
+      "categories": {
+        "io": 1
+      }
+    },
+    "12-15": {
+      "resource_used": 5,
+      "categories": {
+        "network": 1
+      }
+    },
+    "15-17": {
+      "resource_used": 5,
+      "categories": {
+        "io": 1
+      }
+    },
+    "17-20": {
+      "resource_used": 5,
+      "categories": {
+        "io": 1
+      }
+    },
+    "20-22": {
+      "resource_used": 5,
+      "categories": {
+        "network": 1
+      }
+    }
+  }
+}

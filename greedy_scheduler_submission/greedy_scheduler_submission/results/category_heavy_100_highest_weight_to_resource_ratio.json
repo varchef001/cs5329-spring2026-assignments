@@ -1,0 +1,153 @@
+{
+  "strategy_name": "highest_weight_to_resource_ratio",
+  "selected_tasks": [
+    0,
+    2,
+    6,
+    7,
+    17,
+    19,
+    22,
+    48,
+    51,
+    54,
+    58,
+    77,
+    89,
+    99
+  ],
+  "total_weight": 268.43,
+  "execution_time_seconds": 0.000523,
+  "utilization_timeline": {
+    "3-8": {
+      "resource_used": 4,
+      "categories": {
+        "compute": 1,
+        "network": 1
+      }
+    },
+    "8-10": {
+      "resource_used": 5,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 1
+      }
+    },
+    "10-14": {
+      "resource_used": 3,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "14-19": {
+      "resource_used": 2,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "19-22": {
+      "resource_used": 2,
+      "categories": {
+        "compute": 1,
+        "network": 1
+      }
+    },
+    "22-23": {
+      "resource_used": 3,
+      "categories": {
+        "io": 1,
+        "network": 1
+      }
+    },
+    "23-27": {
+      "resource_used": 4,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 1
+      }
+    },
+    "27-28": {
+      "resource_used": 3,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "28-30": {
+      "resource_used": 4,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 1
+      }
+    },
+    "30-31": {
+      "resource_used": 4,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 1
+      }
+    },
+    "31-33": {
+      "resource_used": 2,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "33-38": {
+      "resource_used": 4,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 1
+      }
+    },
+    "38-41": {
+      "resource_used": 2,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "41-43": {
+      "resource_used": 4,
+      "categories": {
+        "io": 1
+      }
+    },
+    "43-44": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "44-46": {
+      "resource_used": 9,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 1
+      }
+    },
+    "46-48": {
+      "resource_used": 5,
+      "categories": {
+        "compute": 1,
+        "network": 1
+      }
+    },
+    "48-53": {
+      "resource_used": 3,
+      "categories": {
+        "network": 1
+      }
+    }
+  }
+}
