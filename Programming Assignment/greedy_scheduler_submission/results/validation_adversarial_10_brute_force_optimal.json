@@ -1,0 +1,16 @@
+{
+  "strategy_name": "brute_force_optimal",
+  "selected_tasks": [
+    0
+  ],
+  "total_weight": 12.0,
+  "execution_time_seconds": 0.002044,
+  "utilization_timeline": {
+    "0-40": {
+      "resource_used": 5,
+      "categories": {
+        "compute": 1
+      }
+    }
+  }
+}

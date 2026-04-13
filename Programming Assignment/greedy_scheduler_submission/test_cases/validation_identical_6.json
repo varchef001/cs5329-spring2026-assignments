@@ -1,0 +1,54 @@
+{
+  "resource_capacity": 4,
+  "category_limit": 2,
+  "tasks": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 4,
+      "weight": 4.0,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 1,
+      "start": 0,
+      "end": 4,
+      "weight": 4.0,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 2,
+      "start": 0,
+      "end": 4,
+      "weight": 4.0,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 3,
+      "start": 4,
+      "end": 8,
+      "weight": 4.0,
+      "resource": 2,
+      "category": "io"
+    },
+    {
+      "id": 4,
+      "start": 4,
+      "end": 8,
+      "weight": 4.0,
+      "resource": 2,
+      "category": "io"
+    },
+    {
+      "id": 5,
+      "start": 4,
+      "end": 8,
+      "weight": 4.0,
+      "resource": 2,
+      "category": "io"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "strategy_name": "highest_weight_to_resource_ratio",
+  "selected_tasks": [
+    0
+  ],
+  "total_weight": 12.0,
+  "execution_time_seconds": 0.000979,
+  "utilization_timeline": {
+    "0-40": {
+      "resource_used": 5,
+      "categories": {
+        "compute": 1
+      }
+    }
+  }
+}
