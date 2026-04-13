@@ -1,0 +1,120 @@
+{
+  "strategy_name": "earliest_finish_resource_aware",
+  "selected_tasks": [
+    13,
+    18,
+    20,
+    21,
+    23,
+    25,
+    26,
+    35,
+    40,
+    63,
+    65,
+    97
+  ],
+  "total_weight": 47.99,
+  "execution_time_seconds": 0.000386,
+  "utilization_timeline": {
+    "0-1": {
+      "resource_used": 4,
+      "categories": {
+        "network": 1
+      }
+    },
+    "1-5": {
+      "resource_used": 6,
+      "categories": {
+        "network": 2
+      }
+    },
+    "5-6": {
+      "resource_used": 4,
+      "categories": {
+        "compute": 1,
+        "network": 1
+      }
+    },
+    "6-7": {
+      "resource_used": 8,
+      "categories": {
+        "compute": 1,
+        "io": 1,
+        "network": 1
+      }
+    },
+    "7-8": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "8-11": {
+      "resource_used": 8,
+      "categories": {
+        "compute": 1,
+        "io": 2
+      }
+    },
+    "11-13": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 1,
+        "io": 2
+      }
+    },
+    "13-14": {
+      "resource_used": 8,
+      "categories": {
+        "compute": 1,
+        "io": 2
+      }
+    },
+    "14-19": {
+      "resource_used": 8,
+      "categories": {
+        "compute": 1,
+        "io": 2
+      }
+    },
+    "19-21": {
+      "resource_used": 7,
+      "categories": {
+        "compute": 2
+      }
+    },
+    "21-22": {
+      "resource_used": 5,
+      "categories": {
+        "compute": 1
+      }
+    },
+    "22-25": {
+      "resource_used": 8,
+      "categories": {
+        "compute": 2
+      }
+    },
+    "25-27": {
+      "resource_used": 8,
+      "categories": {
+        "compute": 1,
+        "io": 2
+      }
+    },
+    "27-33": {
+      "resource_used": 5,
+      "categories": {
+        "io": 2
+      }
+    },
+    "33-34": {
+      "resource_used": 3,
+      "categories": {
+        "io": 1
+      }
+    }
+  }
+}

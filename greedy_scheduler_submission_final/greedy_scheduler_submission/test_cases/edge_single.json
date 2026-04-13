@@ -1,0 +1,14 @@
+{
+  "resource_capacity": 3,
+  "category_limit": 1,
+  "tasks": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 3,
+      "weight": 3.5,
+      "resource": 2,
+      "category": "compute"
+    }
+  ]
+}

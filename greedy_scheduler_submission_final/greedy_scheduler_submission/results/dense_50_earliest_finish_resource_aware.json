@@ -1,0 +1,59 @@
+{
+  "strategy_name": "earliest_finish_resource_aware",
+  "selected_tasks": [
+    8,
+    15,
+    22,
+    43,
+    47
+  ],
+  "total_weight": 19.7,
+  "execution_time_seconds": 0.000166,
+  "utilization_timeline": {
+    "0-1": {
+      "resource_used": 3,
+      "categories": {
+        "io": 1
+      }
+    },
+    "1-6": {
+      "resource_used": 7,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "6-7": {
+      "resource_used": 3,
+      "categories": {
+        "io": 1
+      }
+    },
+    "7-10": {
+      "resource_used": 5,
+      "categories": {
+        "io": 1
+      }
+    },
+    "10-12": {
+      "resource_used": 7,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "12-16": {
+      "resource_used": 5,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "16-17": {
+      "resource_used": 3,
+      "categories": {
+        "io": 1
+      }
+    }
+  }
+}

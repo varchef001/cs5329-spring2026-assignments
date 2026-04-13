@@ -1,0 +1,406 @@
+{
+  "resource_capacity": 5,
+  "category_limit": 2,
+  "tasks": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 40,
+      "weight": 12.0,
+      "resource": 5,
+      "category": "compute"
+    },
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10,
+      "weight": 2.2,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 2,
+      "start": 10,
+      "end": 20,
+      "weight": 2.01,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 3,
+      "start": 20,
+      "end": 30,
+      "weight": 2.21,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 4,
+      "start": 30,
+      "end": 40,
+      "weight": 2.09,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 5,
+      "start": 0,
+      "end": 10,
+      "weight": 2.23,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 6,
+      "start": 10,
+      "end": 20,
+      "weight": 2.25,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 7,
+      "start": 20,
+      "end": 30,
+      "weight": 2.19,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 8,
+      "start": 30,
+      "end": 40,
+      "weight": 2.29,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 9,
+      "start": 0,
+      "end": 10,
+      "weight": 2.09,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 10,
+      "start": 10,
+      "end": 20,
+      "weight": 2.31,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 11,
+      "start": 20,
+      "end": 30,
+      "weight": 2.26,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 12,
+      "start": 30,
+      "end": 40,
+      "weight": 2.0,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 13,
+      "start": 0,
+      "end": 10,
+      "weight": 2.26,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 14,
+      "start": 10,
+      "end": 20,
+      "weight": 2.13,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 15,
+      "start": 20,
+      "end": 30,
+      "weight": 2.28,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 16,
+      "start": 30,
+      "end": 40,
+      "weight": 2.04,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 17,
+      "start": 0,
+      "end": 10,
+      "weight": 2.1,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 18,
+      "start": 10,
+      "end": 20,
+      "weight": 2.35,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 19,
+      "start": 20,
+      "end": 30,
+      "weight": 2.21,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 20,
+      "start": 30,
+      "end": 40,
+      "weight": 2.38,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 21,
+      "start": 0,
+      "end": 10,
+      "weight": 2.01,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 22,
+      "start": 10,
+      "end": 20,
+      "weight": 2.25,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 23,
+      "start": 20,
+      "end": 30,
+      "weight": 2.09,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 24,
+      "start": 30,
+      "end": 40,
+      "weight": 2.29,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 25,
+      "start": 0,
+      "end": 10,
+      "weight": 2.23,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 26,
+      "start": 10,
+      "end": 20,
+      "weight": 2.08,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 27,
+      "start": 20,
+      "end": 30,
+      "weight": 2.03,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 28,
+      "start": 30,
+      "end": 40,
+      "weight": 2.4,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 29,
+      "start": 0,
+      "end": 10,
+      "weight": 2.08,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 30,
+      "start": 10,
+      "end": 20,
+      "weight": 2.08,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 31,
+      "start": 20,
+      "end": 30,
+      "weight": 2.23,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 32,
+      "start": 30,
+      "end": 40,
+      "weight": 2.02,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 33,
+      "start": 0,
+      "end": 10,
+      "weight": 2.26,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 34,
+      "start": 10,
+      "end": 20,
+      "weight": 2.26,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 35,
+      "start": 20,
+      "end": 30,
+      "weight": 2.1,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 36,
+      "start": 30,
+      "end": 40,
+      "weight": 2.33,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 37,
+      "start": 0,
+      "end": 10,
+      "weight": 2.02,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 38,
+      "start": 10,
+      "end": 20,
+      "weight": 2.22,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 39,
+      "start": 20,
+      "end": 30,
+      "weight": 2.2,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 40,
+      "start": 30,
+      "end": 40,
+      "weight": 2.38,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 41,
+      "start": 0,
+      "end": 10,
+      "weight": 2.26,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 42,
+      "start": 10,
+      "end": 20,
+      "weight": 2.04,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 43,
+      "start": 20,
+      "end": 30,
+      "weight": 2.1,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 44,
+      "start": 30,
+      "end": 40,
+      "weight": 2.16,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 45,
+      "start": 0,
+      "end": 10,
+      "weight": 2.02,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 46,
+      "start": 10,
+      "end": 20,
+      "weight": 2.32,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 47,
+      "start": 20,
+      "end": 30,
+      "weight": 2.2,
+      "resource": 5,
+      "category": "io"
+    },
+    {
+      "id": 48,
+      "start": 30,
+      "end": 40,
+      "weight": 2.29,
+      "resource": 5,
+      "category": "network"
+    },
+    {
+      "id": 49,
+      "start": 0,
+      "end": 10,
+      "weight": 2.2,
+      "resource": 5,
+      "category": "io"
+    }
+  ]
+}
